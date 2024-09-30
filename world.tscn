@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dqg3g8v01nx24"]
+
+[node name="World" type="Node2D"]
+
+[node name="Hello GitHub" type="RichTextLabel" parent="."]
+offset_right = 473.0
+offset_bottom = 180.0
+text = "Merhaba, Versiyon Denemesi 1"
+fit_content = true
+tab_size = 9
