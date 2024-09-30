@@ -5,6 +5,6 @@
 [node name="Hello GitHub" type="RichTextLabel" parent="."]
 offset_right = 473.0
 offset_bottom = 180.0
-text = "Merhaba, Versiyon Denemesi 1"
+text = "Merhaba, Versiyon Denemesi 1, Pull Denemesi Basarili"
 fit_content = true
 tab_size = 9
