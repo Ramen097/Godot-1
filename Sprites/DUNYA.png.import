@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://mp7hn8t3ojro"
-path="res://.godot/imported/AY.png-b8231544b5a9fe2091939c4c8d992e66.ctex"
+uid="uid://comomtivxoklq"
+path="res://.godot/imported/DUNYA.png-da35423546234520947a2c314e144499.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AY.png"
-dest_files=["res://.godot/imported/AY.png-b8231544b5a9fe2091939c4c8d992e66.ctex"]
+source_file="res://Sprites/DUNYA.png"
+dest_files=["res://.godot/imported/DUNYA.png-da35423546234520947a2c314e144499.ctex"]
 
 [params]
 

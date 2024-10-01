@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://clga28wj80tib"
-path="res://.godot/imported/GUNES.png-9cf1fa440e336b7755b624a3a478f5fd.ctex"
+uid="uid://kagpu1j7qqpa"
+path="res://.godot/imported/sparecharger shop.png-8081dbda657b2519cb865a242be01152.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GUNES.png"
-dest_files=["res://.godot/imported/GUNES.png-9cf1fa440e336b7755b624a3a478f5fd.ctex"]
+source_file="res://Sprites/sparecharger shop.png"
+dest_files=["res://.godot/imported/sparecharger shop.png-8081dbda657b2519cb865a242be01152.ctex"]
 
 [params]
 

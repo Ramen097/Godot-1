@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://3ml7xfm1dmrn"]
+
+[ext_resource type="Script" path="res://Scenes/node_2d(sun).gd" id="1_agpgx"]
+[ext_resource type="Texture2D" uid="uid://clga28wj80tib" path="res://Sprites/GUNES.png" id="1_beeki"]
+[ext_resource type="Script" path="res://node_2d(earth_orbit).gd" id="2_j2vn1"]
+[ext_resource type="Texture2D" uid="uid://comomtivxoklq" path="res://Sprites/DUNYA.png" id="3_qaa5f"]
+
+[node name="Node2D(SolarCenter)" type="Node2D"]
+position = Vector2(266, 177)
+metadata/_edit_group_ = true
+
+[node name="Node2D(Sun)" type="Node2D" parent="."]
+script = ExtResource("1_agpgx")
+
+[node name="SunSprite" type="Sprite2D" parent="Node2D(Sun)"]
+texture = ExtResource("1_beeki")
+
+[node name="Node2D(EarthOrbit)" type="Node2D" parent="."]
+position = Vector2(787, 344)
+script = ExtResource("2_j2vn1")
+metadata/_edit_group_ = true
+
+[node name="EarthSprite" type="Sprite2D" parent="Node2D(EarthOrbit)"]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_qaa5f")
