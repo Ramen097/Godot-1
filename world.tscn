@@ -1,10 +1,41 @@
-[gd_scene format=3 uid="uid://dqg3g8v01nx24"]
+[gd_scene load_steps=5 format=3 uid="uid://dqg3g8v01nx24"]
 
-[node name="World" type="Node2D"]
+[ext_resource type="Texture2D" uid="uid://clga28wj80tib" path="res://GUNES.png" id="1_1f2o8"]
+[ext_resource type="Script" path="res://world.gd" id="1_vliea"]
+[ext_resource type="Texture2D" uid="uid://comomtivxoklq" path="res://DUNYA.png" id="3_bko6l"]
+[ext_resource type="Texture2D" uid="uid://mp7hn8t3ojro" path="res://AY.png" id="4_cxk4o"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_vliea")
 
 [node name="Hello GitHub" type="RichTextLabel" parent="."]
-offset_right = 473.0
-offset_bottom = 180.0
+offset_left = 11.0
+offset_top = 5.0
+offset_right = 484.0
+offset_bottom = 185.0
 text = "Merhaba, Versiyon Denemesi 1, Pull Denemesi Basarili"
 fit_content = true
 tab_size = 9
+
+[node name="Sun" type="Sprite2D" parent="."]
+position = Vector2(493, 285)
+texture = ExtResource("1_1f2o8")
+
+[node name="Earth" type="Node2D" parent="Sun"]
+position = Vector2(-493, -285)
+
+[node name="EarthOrbit" type="Line2D" parent="Sun/Earth"]
+
+[node name="EarthSprite" type="Sprite2D" parent="Sun/Earth"]
+position = Vector2(212, 211)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_bko6l")
+
+[node name="Moon" type="Node2D" parent="Sun/Earth"]
+
+[node name="MoonSprite" type="Sprite2D" parent="Sun/Earth/Moon"]
+position = Vector2(256, 115)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("4_cxk4o")
+
+[node name="MoonOrbit" type="Line2D" parent="Sun/Earth/Moon"]
