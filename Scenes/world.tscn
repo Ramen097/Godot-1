@@ -29,3 +29,15 @@ position = Vector2(-493, -285)
 position = Vector2(102, 333)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("3_a8bme")
+
+[node name="Sun2" type="Sprite2D" parent="."]
+position = Vector2(900, 452)
+texture = ExtResource("2_0r5h5")
+
+[node name="Earth" type="Node2D" parent="Sun2"]
+position = Vector2(-493, -285)
+
+[node name="EarthSprite" type="Sprite2D" parent="Sun2/Earth"]
+position = Vector2(102, 333)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_a8bme")
